@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "ts-node run_api.ts",
-    "test": "jest tests"
+    "test": "jest --runInBand tests"
   },
   "type": "module",
   "dependencies": {
